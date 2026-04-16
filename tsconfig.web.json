@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "jsx": "react-jsx",
+    "lib": ["ESNext", "DOM"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "paths": {
+      "@renderer/*": ["src/renderer/src/*"]
+    },
+    "strict": true,
+    "target": "ESNext",
+    "types": ["node"]
+  },
+  "include": ["src/renderer/src/**/*"]
+}
